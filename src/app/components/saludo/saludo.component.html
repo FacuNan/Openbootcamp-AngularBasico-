@@ -1,0 +1,5 @@
+<h1> Hola, {{nombre}}</h1>
+<h3 [innerText]="nombre" [ngClass]="nombre === 'anonimo'? 'saludo': 'anonimo'"></h3>
+<h5 [ngStyle]='myStyle'>hola mi nombre es nombre</h5>
+
+<button (click)="enviarMensaje()">Mostrar alerta</button>

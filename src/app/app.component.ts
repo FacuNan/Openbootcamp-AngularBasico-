@@ -9,4 +9,9 @@ export class AppComponent {
   title = 'AngularBasico';
   nombre ='Facundo';
   apellido='Comercio'
+
+
+  recibirMensaje(evento:String){
+    alert(evento);
+  }
 }
