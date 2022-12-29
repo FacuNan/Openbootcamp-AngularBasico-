@@ -327,14 +327,15 @@
 
 <div class="content" role="main">
 
-<input type="text" [(ngModel)]="nombre">
+<!--<input type="text" [(ngModel)]="nombre"> -->
 <!-- Se envia elementos al elemento hijo(Saludo) por medio del input-->
-<!--nombre es la variable declarada en el ts del elemento padre-->
+<!--nombre es la variable declarada en el ts del elemento padre
 <app-saludo [nombre]='nombre' (mensajeEmiitter)="recibirMensaje($event)"></app-saludo>
 </div>
-
-<app-lista-contactos></app-lista-contactos>
-
+-->
+<!--<app-lista-contactos></app-lista-contactos>
+//<app-login-forms></app-login-forms>
+-->
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * * The content above * * * * * * * * * * * -->
 <!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
@@ -342,5 +343,5 @@
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * End of Placeholder * * * * * * * * * * * -->
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-
+<app-formulario></app-formulario>
 <router-outlet></router-outlet>

@@ -1,0 +1,12 @@
+<form [formGroup]="miFormulario">
+<h2>Datos de contacto</h2>
+<p>{{miFormulario.value | json}}</p>
+
+<mat-form-field>
+    <input  matInput formControlName="nombre">
+    <input  matInput formControlName="apellido">
+    <input  matInput formControlName="email">
+    <input  matInput formControlName="direccion">
+</mat-form-field>
+
+</form>
